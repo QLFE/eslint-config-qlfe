@@ -19,6 +19,7 @@ module.exports = {
     'import/extensions': [
       '.js',
       '.jsx',
+      '.vue',
     ],
     'import/core-modules': [
     ],
@@ -110,7 +111,7 @@ module.exports = {
 
     // disallow non-import statements appearing before import statements
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
-    'import/first': ['error', 'absolute-first'],
+    'import/first': ['warn', 'absolute-first'],
 
     // disallow non-import statements appearing before import statements
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md
@@ -131,6 +132,7 @@ module.exports = {
     'import/extensions': ['error', 'always', {
       js: 'never',
       jsx: 'never',
+      vue: 'never'
     }],
 
     // Enforce a convention in module import order
@@ -147,7 +149,7 @@ module.exports = {
 
     // Require modules with a single export to use a default export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
-    'import/prefer-default-export': 'error',
+    'import/prefer-default-export': 'off',
 
     // Restrict which files can be imported in a given folder
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-restricted-paths.md
@@ -163,7 +165,7 @@ module.exports = {
 
     // Forbid require() calls with expressions
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
-    'import/no-dynamic-require': 'error',
+    'import/no-dynamic-require': 'off',
 
     // prevent importing the submodules of other modules
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-internal-modules.md

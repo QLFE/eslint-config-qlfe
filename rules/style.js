@@ -30,7 +30,7 @@ module.exports = {
     }],
 
     // require trailing commas in multiline object literals
-    'comma-dangle': ['error', {
+    'comma-dangle': ['off', {
       arrays: 'always-multiline',
       objects: 'always-multiline',
       imports: 'always-multiline',
