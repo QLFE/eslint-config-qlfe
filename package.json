@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-qlfe",
+  "version": "0.0.1",
+  "description": "A ESLint shareable config for QLFE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QLFE/eslint-config-qlfe.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Wang Xiao <wanngxiao@gmail.com> (http://muyao.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QLFE/eslint-config-qlfe/issues"
+  },
+  "homepage": "https://github.com/QLFE/eslint-config-qlfe#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
