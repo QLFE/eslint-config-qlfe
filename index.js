@@ -1,5 +1,3 @@
-const rules = require('./rules');
-
 module.exports = {
   'root': true,
 
@@ -24,7 +22,5 @@ module.exports = {
     'ecmaFeatures': {
       'experimentalObjectRestSpread': true
     }
-  },
-
-  rules: rules
+  }
 };
