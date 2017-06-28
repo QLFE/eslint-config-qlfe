@@ -18,8 +18,7 @@ module.exports = {
     },
     'import/extensions': [
       '.js',
-      '.jsx',
-      '.vue',
+      '.jsx'
     ],
     'import/core-modules': [
     ],

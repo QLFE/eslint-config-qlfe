@@ -1,11 +1,4 @@
 module.exports = {
-  'root': true,
-
-  'env': {
-    'browser': true,
-    'node': true
-  },
-
   extends: [
     './rules/best-practices',
     './rules/errors',
@@ -13,14 +6,18 @@ module.exports = {
     './rules/style',
     './rules/variables',
     './rules/es6',
-    './rules/imports',
+    './rules/imports'
   ].map(require.resolve),
 
-  'parserOptions': {
+  parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module',
-    'ecmaFeatures': {
-      'experimentalObjectRestSpread': true
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true
     }
-  }
+  },
+
+  rules: {
+    strict: 'error'
+  },
 };

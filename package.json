@@ -1,9 +1,10 @@
 {
   "name": "eslint-config-qlfe",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A ESLint shareable config for QLFE",
   "main": "index.js",
   "scripts": {
+    "eslint-find-option-rules": "eslint-find-rules -c ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,12 @@
   },
   "homepage": "https://github.com/QLFE/eslint-config-qlfe#readme",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-find-rules": "^3.1.1",
+    "eslint-plugin-import": "^2.6.0"
   }
 }
