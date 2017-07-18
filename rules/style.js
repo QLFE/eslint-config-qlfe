@@ -133,7 +133,7 @@ module.exports = {
 
     // disallow mixed 'LF' and 'CRLF' as linebreaks
     // http://eslint.org/docs/rules/linebreak-style
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': ['off', 'unix'],
 
     // enforces empty lines around comments
     'lines-around-comment': 'off',
