@@ -90,10 +90,7 @@ module.exports = {
       SwitchCase: 1,
       VariableDeclarator: 1,
       outerIIFEBody: 1,
-      // MemberExpression: null,
-      // CallExpression: {
-        // parameters: null,
-      // },
+      MemberExpression: 1,
       FunctionDeclaration: {
         parameters: 1,
         body: 1
@@ -101,7 +98,12 @@ module.exports = {
       FunctionExpression: {
         parameters: 1,
         body: 1
-      }
+      },
+      CallExpression: {
+        arguments: 1
+      },
+      ArrayExpression: 1,
+      ObjectExpression: 1
     }],
 
     // specify whether double or single quotes should be used in JSX attributes
