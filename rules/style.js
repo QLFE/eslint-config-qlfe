@@ -51,7 +51,7 @@ module.exports = {
     'consistent-this': 'off',
 
     // enforce newline at the end of file, with no multiple empty lines
-    'eol-last': ['error', 'always'],
+    'eol-last': ['warn', 'always'],
 
     // enforce spacing between functions and their invocations
     // http://eslint.org/docs/rules/func-call-spacing
