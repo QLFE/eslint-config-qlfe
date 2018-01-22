@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qlfe",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A ESLint shareable config for QLFE",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/QLFE/eslint-config-qlfe#readme",
   "peerDependencies": {
-    "eslint": ">= 4",
+    "eslint": ">= 3",
     "eslint-plugin-import": ">= 2.2.0"
   },
   "devDependencies": {
