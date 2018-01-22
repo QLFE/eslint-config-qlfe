@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qlfe",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A ESLint shareable config for QLFE",
   "main": "index.js",
   "scripts": {
